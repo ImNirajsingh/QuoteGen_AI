@@ -1,4 +1,4 @@
-# ✍️ Sentence Completion & Quote Generation using LSTMs
+# Sentence Completion & Quote Generation using LSTMs
 
 An interactive Deep Learning project built in a Jupyter Notebook that trains an AI model to generate text and complete sentences based on a dataset of quotes. 
 
@@ -6,7 +6,7 @@ This project demonstrates a complete Natural Language Processing (NLP) pipeline�
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The objective of this notebook is to process human language data and build a predictive text model. Given a seed phrase (e.g., *"life is about"*), the trained LSTM network predicts the most logically sound sequence of following words, effectively generating original quotes.
 
@@ -14,7 +14,7 @@ The objective of this notebook is to process human language data and build a pre
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6879af77-e58c-46de-9829-7c176277905b" />
 
 
-## 🛠️ Technology Stack & Libraries
+## Technology Stack & Libraries
 
 This notebook utilizes a **Python 3** environment (optimized for GPU acceleration, e.g., on Google Colab) and relies on the following libraries:
 
@@ -27,7 +27,7 @@ This notebook utilizes a **Python 3** environment (optimized for GPU acceleratio
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The project relies on `qoute_dataset.csv`, which contains a collection of text quotes. 
 
@@ -38,7 +38,7 @@ The project relies on `qoute_dataset.csv`, which contains a collection of text q
 
 ---
 
-## 🚀 Notebook Workflow
+## Notebook Workflow
 
 ### 1. Data Cleaning & Tokenization
 * Cleans the text corpus and feeds it into a Keras `Tokenizer` (capped at a `vocab_size` of 10,000 words).
@@ -60,7 +60,7 @@ The project relies on `qoute_dataset.csv`, which contains a collection of text q
 
 ---
 
-## 💻 How to Run the Notebook Locally
+## How to Run the Notebook Locally
 
 1. **Clone or Download the Repository:** Ensure `qoute_dataset.csv` and the `.ipynb` notebook file are in the same directory.
 2. **Install Dependencies:**
